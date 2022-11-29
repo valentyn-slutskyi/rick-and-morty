@@ -18,7 +18,7 @@ services:
   app:
     depends_on:
       - postgres
-    image: vaaalik/example-postgres-app
+    image: vaaalik45/rick-and-morty-app
     build: .
     env_file: ./.env
     ports:
